@@ -1,0 +1,46 @@
+
+==================== FINAL INTERFACE ====================
+2016-06-04 11:15:44.428506 UTC
+
+interface hellw_3s6tG2TYF7fIYayAZNLhNw:Lib 7103
+  interface hash: 2410b3c11bb4bf7e8524d518d4480a9d
+  ABI hash: 68532dc55642060fa97f5aa30af72241
+  export-list hash: 9b96b8425f408b532129a3b9da01105a
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 161d16d3422b284d74d35a691dea01b8
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Lib.myAdd
+  Lib.someFunc
+module dependencies:
+package dependencies: acme-missiles-0.3@acmem_DAH1oLSTISzIx4Z642Z9EI
+                      base-4.8.2.0* ghc-prim-0.4.0.0 integer-gmp-1.0.0.0
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:GHC.Generics
+import  -/  acme-missiles-0.3@acmem_DAH1oLSTISzIx4Z642Z9EI:Acme.Missiles d97bac86f4f5b2ee5cbd02c8ad9330d6
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+9f4a8c864c2c12ae606bfc5fc48cc483
+  myAdd :: GHC.Types.Int -> GHC.Types.Int -> GHC.Types.Int
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U(U)><S,1*U(U)>m,
+     Unfolding: InlineRule (0, True, True) GHC.Num.$fNumInt_$c+ -}
+3545ee40198033e20ba1a5c68c1599d3
+  someFunc :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Acme.Missiles.launchMissiles1
+                  `cast`
+                (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

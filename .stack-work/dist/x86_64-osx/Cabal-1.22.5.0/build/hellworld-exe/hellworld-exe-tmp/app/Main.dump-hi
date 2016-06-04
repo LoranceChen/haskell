@@ -1,0 +1,66 @@
+
+==================== FINAL INTERFACE ====================
+2016-06-04 11:15:44.851398 UTC
+
+interface main@main:Main 7103
+  interface hash: c50972b64c962b90864ed6405561a17b
+  ABI hash: 39ac57da06e127ae1b73492d6c647b89
+  export-list hash: 8e749828510a8a4313e8b748df1d178c
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 3a1528d27229f96c377e652d75b6e39e
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: acme-missiles-0.3@acmem_DAH1oLSTISzIx4Z642Z9EI
+                      base-4.8.2.0* ghc-prim-0.4.0.0
+                      hellworld-0.1.0.0@hellw_3s6tG2TYF7fIYayAZNLhNw integer-gmp-1.0.0.0
+orphans: base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+family instance modules: base-4.8.2.0:Control.Applicative
+                         base-4.8.2.0:Data.Either base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:GHC.Generics
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  base-4.8.2.0:System.IO 0899686bfc1d9ef72dff3de85e99862a
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  hellworld-0.1.0.0@hellw_3s6tG2TYF7fIYayAZNLhNw:Lib 68532dc55642060fa97f5aa30af72241
+3108b34aca9a842947bae94776e7d2c3
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+f00bf41640d158bb49c3232196a87b65
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   Main.main2
+                   GHC.Types.True
+                   eta) -}
+8767f0820d95411a1bc05bc5f6bde756
+  main2 :: GHC.Base.String
+  {- Unfolding: (case GHC.Show.$wshowSignedInt
+                        0
+                        3
+                        (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                 GHC.Types.: @ GHC.Types.Char ww5 ww6 }) -}
+c1505cfcf345fb7343fb972903558179
+  main3 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
