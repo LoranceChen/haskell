@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2016-06-04 11:15:44.851398 UTC
+2016-06-04 12:37:40.385726 UTC
 
 interface main@main:Main 7103
-  interface hash: c50972b64c962b90864ed6405561a17b
+  interface hash: a47f29333604c597c326205e0449d701
   ABI hash: 39ac57da06e127ae1b73492d6c647b89
   export-list hash: 8e749828510a8a4313e8b748df1d178c
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -24,7 +24,7 @@ family instance modules: base-4.8.2.0:Control.Applicative
 import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
 import  -/  base-4.8.2.0:System.IO 0899686bfc1d9ef72dff3de85e99862a
 import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
-import  -/  hellworld-0.1.0.0@hellw_3s6tG2TYF7fIYayAZNLhNw:Lib 68532dc55642060fa97f5aa30af72241
+import  -/  hellworld-0.1.0.0@hellw_3s6tG2TYF7fIYayAZNLhNw:Lib 1320885d437a0a6ecb38226c5f3ccb69
 3108b34aca9a842947bae94776e7d2c3
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <L,U>,
